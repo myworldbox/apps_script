@@ -1,8 +1,8 @@
 function url_array_to_sheet() {
 
-  var url = "https://myapibox.vercel.app/api/google/read?google_sheet_id=1d_QazTaI4Awe8fXhoYXRqWE8o02ivy9Vukifgphb5F0&google_sheet_tab=Duplicate&hash=True"
+  var url = "url"
 
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("ulbf - ledger")
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1")
 
   var response = JSON.parse(UrlFetchApp.fetch(url))
 
